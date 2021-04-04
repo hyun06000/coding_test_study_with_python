@@ -20,7 +20,7 @@ class Solution:
 
 
 
-'''
+''' use it
 from frame import Solution as frame
 
 inputs = []

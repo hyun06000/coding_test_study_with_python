@@ -14,3 +14,13 @@ a.p()
 
 b = B()
 b.p()
+
+a = ['a', 'b', 'c']
+print(a.sort())
+# print(a.sorted()) error
+
+b = "cghr"
+# print(sort(b)) error
+print(sorted(b))
+
+print(sorted(a))
