@@ -1,27 +1,14 @@
 # leetcode 125 valid palindrome
+from frame import Solution as frame
 
-def checker(Sol):
-    # ex_1
-    in_chars_1 = "A man, a plan, a canal: Panama"
-    label_1 = True
-
-    print('case_1')
-    ans_1 = Sol.isPalindrome(in_chars_1)
-    print(ans_1 == label_1)
-
-
-    # ex_2
-    in_chars_2 = "race a car"
-    label_2 = False
-
-    print('case_2')
-    ans_2 = Sol.isPalindrome(in_chars_2)
-    print(ans_2 == label_2)
-
+inputs = ["A man, a plan, a canal: Panama",
+          "race a car"]
+labels = [True,
+          False]
 
 # 1
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
+class Solution(frame):
+    def answer_method(self, s: str) -> bool:
 
         # encode input 's' to the list of strings
         strs = []
@@ -37,15 +24,15 @@ class Solution:
 
 print('### Solution_1')
 sol_1 = Solution()
-checker(sol_1)
+sol_1.checker(inputs, labels)
 
 # 2
 import collections
 
 Deque = collections.deque()
 
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
+class Solution(frame):
+    def answer_method(self, s: str) -> bool:
         # encode input s to a Deque of strings
         strs: Deque = collections.deque()
         for char in s:
@@ -62,13 +49,13 @@ class Solution:
 
 print('### Solution_2')
 sol_2 = Solution()
-checker(sol_2)
+sol_2.checker(inputs, labels)
 
 # 3
 import re
 
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
+class Solution(frame):
+    def answer_method(self, s: str) -> bool:
         # make s as lower case
         s = s.lower()
 
@@ -82,4 +69,4 @@ class Solution:
 
 print('### Solution_3')
 sol_3 = Solution()
-checker(sol_3)
+sol_3.checker(inputs, labels)

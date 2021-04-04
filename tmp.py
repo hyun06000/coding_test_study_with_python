@@ -1,20 +1,16 @@
-import numpy as np
+class A:
+    def tmp(self):
+        pass
+    def p(self):
+        print(self.tmp())
 
-a = np.array([0, 1, 2, 3, 4])
-b = np.array([2, 2, 2, 2, 2])
+class B(A):
+    def tmp(self):
+        return 'hi'
 
-print(a * (a>=b))
 
-import matplotlib
-print(matplotlib.__version__)
+a = A()
+a.p()
 
-a = True
-print(not a)
-
-b = []
-print(b)
-print(not b)
-
-# caution!
-print(b is False)
-print(b == False)
+b = B()
+b.p()
