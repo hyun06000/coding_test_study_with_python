@@ -24,3 +24,5 @@ b = "cghr"
 print(sorted(b))
 
 print(sorted(a))
+
+print(7 in [7,8])

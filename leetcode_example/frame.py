@@ -2,6 +2,9 @@
 
 # 1
 class Solution:
+    def __init__(self,n):
+        print("### Solution {}".format(n))
+
     def answer_method(self):
         pass
 
