@@ -32,4 +32,7 @@ labels = []
 # 1
 class Solution(frame):
     def answer_method(self) -> :
+
+sol = Solution(1)
+sol.checker(inputs, labels)
 '''
