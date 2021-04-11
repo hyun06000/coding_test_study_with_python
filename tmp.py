@@ -1,5 +1,8 @@
-a = 12345
+import collections
+import sys
 
-b = ' '.join(str(a)).split(' ')
+def sysmax():
+    return sys.maxsize
+a = collections.defaultdict(sysmax)
 
-print(b)
+print(a['key'])
