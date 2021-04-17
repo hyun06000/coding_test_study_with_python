@@ -7,7 +7,7 @@ def solution(S, P, Q):
     # print("this is a debug message")
     A, C, G, T = 0, 0, 0, 0
 
-    cummulated = [[0, 0, 0, 0]]
+    cumulated = [[0, 0, 0, 0]]
     for char in S:
         if char == "A":
             A += 1
@@ -17,12 +17,12 @@ def solution(S, P, Q):
             G += 1
         elif char == "T":
             T += 1
-        cummulated.append([A, C, G, T])
+        cumulated.append([A, C, G, T])
 
     i_f_table = {"A": 1, "C": 2, "G": 3, "T": 4}
     answer = []
     for p, q in zip(P, Q):
-        left, right = cummulated[p], cummulated[q + 1]
+        left, right = cumulated[p], cumulated[q + 1]
         if left[0] != right[0]:
             answer.append(1)
         elif left[1] != right[1]:

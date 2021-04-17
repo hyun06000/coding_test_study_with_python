@@ -1,7 +1,8 @@
 # you can write to stdout for debugging purposes, e.g.
 # print("this is a debug message")
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
 import collections
-
 
 def solution(N, A):
     # write your code in Python 3.6
@@ -12,14 +13,12 @@ def solution(N, A):
         if n > N:
             p_left, p_right = p_right + 1, i
 
-            # if max_count is the firet element
-            if not A[p_left: p_right]:
-                continue
-            else:
+            # if first max_count is not the first element
+            if A[p_left: p_right]:
                 increase = collections.Counter(A[p_left: p_right])
                 max_count += max(increase.values())
 
-    if len(A) - 1 == p_right:
+    if len(A) == p_right:
         return [max_count] * N
     else:
         count = [max_count] * N

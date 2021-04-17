@@ -2,7 +2,6 @@
 # print("this is a debug message")
 import sys
 
-
 def solution(A):
     # write your code in Python 3.6
     left, right = 0, sum(A)

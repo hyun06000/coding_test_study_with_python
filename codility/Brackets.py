@@ -27,3 +27,11 @@ def solution(S):
         return 0
     else:
         return 1
+
+    # simpler code ( Korean Book : Python algorithm interview )
+    # for char in S:
+    #     if char not in brakets:
+    #         stack.append(char)
+    #     elif not stack and brakets[char] != stack.pop():
+    #         return 0
+    # return len(stack) == 0
