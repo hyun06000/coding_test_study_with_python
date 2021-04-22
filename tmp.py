@@ -1,4 +1,7 @@
-a = (((1, 2, 3),4,5),6)
+A = set()
 
-print(list(a))
-print([a])
+A.add(1)
+A.add(1)
+A.add(1)
+
+print(A)
