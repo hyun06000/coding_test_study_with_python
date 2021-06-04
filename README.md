@@ -32,18 +32,25 @@
 |프로그래머스|완전탐색 (brute force)|카펫|[github](https://bit.ly/3fQ2nnf)|[blog]|
 |프로그래머스|정렬 (sort)|H_Index|[github](https://bit.ly/2S81g9r)|[blog]|
 |프로그래머스|정렬 (sort)|K번째 수|[github](https://bit.ly/3iilc3V)|[blog]|
-|프로그래머스|정렬 (sort)|가장 큰 수|[github](https://bit.ly/2SUudpw)|[blog]|
+|프로그래머스|정렬 (sort)|가장 큰 수|[github](https://bit.ly/2SUudpw)|[blog](https://davi06000.tistory.com/62?category=862069)|
 |프로그래머스|탐욕법 (Greedy)|구명보트|[github](https://bit.ly/3z3GSHh)|[blog]|
 |프로그래머스|탐욕법 (Greedy)|섬 연결하기|[github](https://bit.ly/2ScRy5w)|[blog]|
 |프로그래머스|탐욕법 (Greedy)|조이스틱|[github](https://bit.ly/3poLgvR)|[blog]|
 |프로그래머스|탐욕법 (Greedy)|체육복|[github](https://bit.ly/2RobPow)|[blog]|
 |프로그래머스|탐욕법 (Greedy)|큰 수 만들기|[github](https://bit.ly/3z1sMWU)|[blog]|
-
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|네트워크|[github](https://bit.ly/3vVWb2E)|[blog]|
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|단어 변환|[github](https://bit.ly/3gapLuI)|[blog]|
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|여행경로|[github](https://bit.ly/3wU1PT0)|[blog]|
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|타겟 넘버|[github](https://bit.ly/3g2FDzi)|[blog]|
+|프로그래머스|Level Check / LV.3|2xN 타일|[github](https://bit.ly/2Rocl5W)|[blog](https://davi06000.tistory.com/70?category=862069)|
+|프로그래머스|Level Check / LV.3|야근|[github](https://bit.ly/2SQEPWh)|[blog](https://davi06000.tistory.com/66?category=862069)|
+|프로그래머스|Level Check / LV.3|자물쇠와 열쇠|[github](https://bit.ly/2S1NJQU)|[blog](https://davi06000.tistory.com/69?category=862069)|
 
-|프로그래머스|Level Check / LV.3|2xN 타일|[github](https://bit.ly/2Rocl5W)|[blog]|
-|프로그래머스|Level Check / LV.3|야근|[github](https://bit.ly/2SQEPWh)|[blog]|
-|프로그래머스|Level Check / LV.3|자물쇠와 열쇠|[github](https://bit.ly/2S1NJQU)|[blog]|
+
+### ToDoList
+commit date : 2021-06-04-17-14
+-[] 백준 표에 추가
+-[] 코딜리티 표에 추가
+-[] 리트코드 표에 추가
+-[] structure_tutorial 삭제하기
+-[] 1_2, 2_3, 2_5 통합 후 text book 디렉토리로 관리하기
