@@ -4,11 +4,11 @@
  이 저장소는 파이썬을 이용하여 알고리즘을 익히고 코딩테스트를 공부하는 과정에대한 기록이다. 저장소에서는 문제의 정답에 해당하는 코드들만을 업로드 하고 있으며 풀이과정에서 발생하는 최소한의 주석만을 포함하고 있다. 코드에 대한 더 자세한 풀이와 사고과정을 기록한 글은 나의 블로그[Steady Learning for Deep Learning](https://davi06000.tistory.com/category/Coding%20Test?page=1) 에서 확인 가능하다. 아래의 표를 참고하면 더 빠르게 문제의 풀이에 접근할 수 있다. 풀이를 위해서 참고한 자료들은 해당 문제의 풀이를 적은 글 최하단에 기재하고 있으며 서적을 구매하여 따라가면서 공부한 경우는 본 문서에 이미지와 함께 올리고 있다.
 
 ### Text book
-<img src="https://user-images.githubusercontent.com/35767146/120762329-1b8a3f80-c551-11eb-9971-4c1f74628c52.jpg" width="400">
+<img src="https://user-images.githubusercontent.com/35767146/120762329-1b8a3f80-c551-11eb-9971-4c1f74628c52.jpg" width="300">
  본격적으로 주도적 학습을 시작하기 전에 우선은 이 책을 통해 코딩테스트를 위한 공부를 시작했다. 리트코드를 통해서 실전위주의 커리큘럼이 특징이고 하나의 문제를 여러가지 방식으로 접근하면서 저자가 합리적인 정답으로 접근해 가는 사고과정을 볼 수 있다. 다만 자료구조나 파이썬에 대한 기초적인 이해가 필요한 사람은 가볍게 해당 지식을 습득하고 이 책을 펼치는 것을 추천한다.
-![python_CS_bootcamp](https://user-images.githubusercontent.com/35767146/120763150-e7fbe500-c551-11eb-9f2c-2abb9bbf7da9.jpg)
+<img src="https://user-images.githubusercontent.com/35767146/120763150-e7fbe500-c551-11eb-9f2c-2abb9bbf7da9.jpg" width="300">
  파이썬의 이론적인 부분을 CS 관점에서 자세하게 설명한 책이다. "Call by Objecte Reference" 와 같은 파이썬의 주요한 개념들을 C와 같은 언어들과 비교해가면서 깊이있게 설명한다. 즉 이 책의 제목은 파이썬으로 되어있지만 모든 내용을 잘 소화하려면 타 언어에 대한 이해도 어느 정도 있는 상황이어야 한다. 0to100 읽기보다는 사전처럼 그때그때 찾아가면서 읽기 좋은 책이라고 생각한다.
-![DoIt](https://user-images.githubusercontent.com/35767146/120763729-796b5700-c552-11eb-9f92-3e4b13442fe0.jpg)
+<img src="https://user-images.githubusercontent.com/35767146/120763729-796b5700-c552-11eb-9f92-3e4b13442fe0.jpg" width="300">
  현재 보고있는 책. 절반 이상을 넘어가면 자세한 후기를 남기도록 하겠다.
 
 ### Solution and Explanation
