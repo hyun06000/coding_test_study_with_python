@@ -27,3 +27,23 @@
 |프로그래머스|힙 (heap)|더 맵게|[github](https://bit.ly/3uPlqm2)|[blog]|
 |프로그래머스|힙 (heap)|디스크 컨트롤러|[github](https://bit.ly/3w3vHMV)|[blog]|
 |프로그래머스|힙 (heap)|우선순위 이중 큐|[github](https://bit.ly/3vSkNJt)|[blog]|
+|프로그래머스|완전탐색 (brute force)|모의고사|[github](https://bit.ly/3gchCFW)|[blog]|
+|프로그래머스|완전탐색 (brute force)|소수 찾기|[github](https://bit.ly/3uK2jtu)|[blog]|
+|프로그래머스|완전탐색 (brute force)|카펫|[github](https://bit.ly/3fQ2nnf)|[blog]|
+|프로그래머스|정렬 (sort)|H_Index|[github](https://bit.ly/2S81g9r)|[blog]|
+|프로그래머스|정렬 (sort)|K번째 수|[github](https://bit.ly/3iilc3V)|[blog]|
+|프로그래머스|정렬 (sort)|가장 큰 수|[github](https://bit.ly/2SUudpw)|[blog]|
+|프로그래머스|탐욕법 (Greedy)|구명보트|[github](https://bit.ly/3z3GSHh)|[blog]|
+|프로그래머스|탐욕법 (Greedy)|섬 연결하기|[github](https://bit.ly/2ScRy5w)|[blog]|
+|프로그래머스|탐욕법 (Greedy)|조이스틱|[github](https://bit.ly/3poLgvR)|[blog]|
+|프로그래머스|탐욕법 (Greedy)|체육복|[github](https://bit.ly/2RobPow)|[blog]|
+|프로그래머스|탐욕법 (Greedy)|큰 수 만들기|[github](https://bit.ly/3z1sMWU)|[blog]|
+
+|프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|네트워크|[github](https://bit.ly/3vVWb2E)|[blog]|
+|프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|단어 변환|[github](https://bit.ly/3gapLuI)|[blog]|
+|프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|여행경로|[github](https://bit.ly/3wU1PT0)|[blog]|
+|프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|타겟 넘버|[github](https://bit.ly/3g2FDzi)|[blog]|
+
+|프로그래머스|Level Check / LV.3|2xN 타일|[github](https://bit.ly/2Rocl5W)|[blog]|
+|프로그래머스|Level Check / LV.3|야근|[github](https://bit.ly/2SQEPWh)|[blog]|
+|프로그래머스|Level Check / LV.3|자물쇠와 열쇠|[github](https://bit.ly/2S1NJQU)|[blog]|
