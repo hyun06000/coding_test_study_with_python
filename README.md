@@ -50,8 +50,6 @@
 ### ToDoList
 commit date : 2021-06-04-17-14
 
-- [ ] this is an incomplete item
-
 - [ ] 백준 표에 추가
 - [ ] 코딜리티 표에 추가
 - [ ] 리트코드 표에 추가
