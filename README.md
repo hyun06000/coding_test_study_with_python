@@ -50,8 +50,10 @@
 ### ToDoList
 commit date : 2021-06-04-17-14
 
--[ ] 백준 표에 추가
--[ ] 코딜리티 표에 추가
--[ ] 리트코드 표에 추가
--[ ] structure_tutorial 삭제하기
--[ ] 1_2, 2_3, 2_5 통합 후 text book 디렉토리로 관리하기
+- [ ] this is an incomplete item
+
+- [ ] 백준 표에 추가
+- [ ] 코딜리티 표에 추가
+- [ ] 리트코드 표에 추가
+- [ ] structure_tutorial 삭제하기
+- [ ] 1_2, 2_3, 2_5 통합 후 text book 디렉토리로 관리하기
