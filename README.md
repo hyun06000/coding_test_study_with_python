@@ -45,6 +45,8 @@
 |프로그래머스|Level Check / LV.3|2xN 타일|[github](https://bit.ly/2Rocl5W)|[blog](https://davi06000.tistory.com/70?category=862069)|
 |프로그래머스|Level Check / LV.3|야근|[github](https://bit.ly/2SQEPWh)|[blog](https://davi06000.tistory.com/66?category=862069)|
 |프로그래머스|Level Check / LV.3|자물쇠와 열쇠|[github](https://bit.ly/2S1NJQU)|[blog](https://davi06000.tistory.com/69?category=862069)|
+|프로그래머스|Level Check / LV.3|정수 삼각형|[github](https://url.kr/n1yhtf)|[blog]|
+|프로그래머스|Level Check / LV.3|셔틀버스|[github](https://url.kr/jblkau)|[blog]|
 
 
 ### ToDoList
