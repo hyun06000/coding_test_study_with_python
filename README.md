@@ -47,6 +47,7 @@
 |프로그래머스|Level Check / LV.3|자물쇠와 열쇠|[github](https://bit.ly/2S1NJQU)|[blog](https://davi06000.tistory.com/69?category=862069)|
 |프로그래머스|Level Check / LV.3|정수 삼각형|[github](https://url.kr/n1yhtf)|[blog](https://davi06000.tistory.com/71)|
 |프로그래머스|Level Check / LV.3|셔틀버스|[github](https://url.kr/jblkau)|[blog](https://davi06000.tistory.com/72)|
+|프로그래머스|Level Check / LV.3|N-Queen|[github](https://url.kr/98amqr)|[blog](https://davi06000.tistory.com/73)|
 
 
 ### ToDoList
