@@ -1,35 +1,32 @@
-def solution(n, t, m, timetable):
-    def M_to_HHMM(M):
-        H, M = divmod(M, 60)
-        return "{0:02d}:{1:02d}".format(H, M)
+def solution(n):
+    cases = [0]
 
-    M_table = []
-    for tb in timetable:
-        _tb = list(map(int, tb.split(":")))
-        M_table.append(_tb[0] * 60 + _tb[1])
-    M_table.sort()
+    def dfs(queens, next_queen):
+        print(queens, next_queen, cases)
+        input()
+        # column check
+        if next_queen in queens:
+            return
 
-    can_ride = []
-    bus_M = 9 * 60
-    for _ in range(n):
-        _m = m  # 버스가 올때마다 자리가 새로 생긴다.
-        while _m and M_table:
-            head = M_table.pop(0)
-            if head <= bus_M:
-                _m -= 1
-            else:
-                M_table = [head] + M_table
-                break
+        # diagonal check
+        for row, column in enumerate(queens):
+            h = len(queens) - row
+            if next_queen == column + h or next_queen == column - h:
+                return
 
-        if _m:  # 자리가 있고 사람이 없는 경우
-            can_ride.append(min(bus_M + t - 1, 9 * 60 + t * (n - 1)))
-        bus_M += t
+        queens.append(next_queen)
+        # end check
+        if len(queens) == n:
+            cases[0] += 1
+            return
 
-    if not _m: # 마지막 버스에 사람이 모두 탄 경우
-        return M_to_HHMM(head - 1) # 맨 마지막에 탄 사람보다만 일찍
+        for next_queen in range(n):
+            dfs(queens[:], next_queen)
 
-    if can_ride:  # 자리가 있는 시간대가 있을 경우
-        return M_to_HHMM(max(can_ride))  # 가능한 경우 중에서 가장 늦게
+    for next_queen in range(n):
+        queens = []
+        dfs(queens, next_queen)
+    return cases[0]
 
-    else:  # 끝까지 기다려도 자리가 없는 경우
-        return M_to_HHMM(head - 1)  # 맨 마지막에 탄 사람보다만 일찍
+
+solution(5)
