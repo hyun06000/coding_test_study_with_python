@@ -77,7 +77,7 @@
 commit date : 2021-06-07-21-09
 
 - [ ] 백준 표에 추가
-- [] 코딜리티 표에 추가
+- [X] 코딜리티 표에 추가
 - [ ] 리트코드 표에 추가
 - [ ] 문제 누락 (Codility Lesson6 MaxProductOfThree)
 - [X] structure_tutorial 삭제하기
