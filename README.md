@@ -80,5 +80,4 @@ commit date : 2021-06-07-21-09
 - [X] 코딜리티 표에 추가
 - [ ] 리트코드 표에 추가
 - [ ] 문제 누락 (Codility Lesson6 MaxProductOfThree)
-- [X] structure_tutorial 삭제하기
 - [X] 1_2, 2_3, 2_5 통합 후 text book 디렉토리로 관리하기
