@@ -69,6 +69,8 @@
 |Codility|Lesson7|Fish|[github](https://url.kr/5l2cjh)|[blog]|
 |Codility|Lesson7|Nesting|[github](https://url.kr/hlasf3)|[blog]|
 |Codility|Lesson7|StoneWall|[github](https://url.kr/tvufhp)|[blog]|
+|백준|10953 번|A+B-6|[github](https://url.kr/62gmlb)|[blog](https://davi06000.tistory.com/42)|
+|백준|7569 번|토마토|[github](https://url.kr/muhxak)|[blog](https://davi06000.tistory.com/75)|
 
 
 
@@ -76,7 +78,7 @@
 ### ToDoList
 commit date : 2021-06-07-21-09
 
-- [ ] 백준 표에 추가
+- [X] 백준 표에 추가
 - [X] 코딜리티 표에 추가
 - [ ] 리트코드 표에 추가
 - [ ] 문제 누락 (Codility Lesson6 MaxProductOfThree)
