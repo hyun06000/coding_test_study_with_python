@@ -48,7 +48,7 @@
 |프로그래머스|Level Check / LV.3|정수 삼각형|[github](https://url.kr/n1yhtf)|[blog](https://davi06000.tistory.com/71)|
 |프로그래머스|Level Check / LV.3|셔틀버스|[github](https://url.kr/jblkau)|[blog](https://davi06000.tistory.com/72)|
 |프로그래머스|Level Check / LV.3|N-Queen|[github](https://url.kr/98amqr)|[blog](https://davi06000.tistory.com/73)|
-|프로그래머스|Level Check / LV.3|110 옮기기|[github](https://url.kr/98amqr)|[blog](https://davi06000.tistory.com/73)|
+|프로그래머스|Level Check / LV.3|110 옮기기|[github](https://url.kr/jsqzuv)|[blog](https://davi06000.tistory.com/76)|
 |Codility|Lesson1|BinaryGap|[github]|[blog](https://davi06000.tistory.com/43)|
 |Codility|Lesson2|CyclicRotation|[github]|[blog](https://davi06000.tistory.com/44?category=858008)|
 |Codility|Lesson2|OddOccurrencesInArray|[github]|[blog](https://davi06000.tistory.com/45?category=858008)|
