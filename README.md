@@ -42,6 +42,8 @@
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|단어 변환|[github](https://bit.ly/3gapLuI)|[blog]|
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|여행경로|[github](https://bit.ly/3wU1PT0)|[blog]|
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|타겟 넘버|[github](https://bit.ly/3g2FDzi)|[blog]|
+|프로그래머스|Level Check / LV.2|숫자의 표현|[github](https://url.kr/65b18l)|[blog]|
+|프로그래머스|Level Check / LV.2|문자열 압축|[github](https://url.kr/k7szv3)|[blog]|
 |프로그래머스|Level Check / LV.3|2xN 타일|[github](https://bit.ly/2Rocl5W)|[blog](https://davi06000.tistory.com/70?category=862069)|
 |프로그래머스|Level Check / LV.3|야근|[github](https://bit.ly/2SQEPWh)|[blog](https://davi06000.tistory.com/66?category=862069)|
 |프로그래머스|Level Check / LV.3|자물쇠와 열쇠|[github](https://bit.ly/2S1NJQU)|[blog](https://davi06000.tistory.com/69?category=862069)|
