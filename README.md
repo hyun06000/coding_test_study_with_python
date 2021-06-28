@@ -72,9 +72,17 @@
 |Codility|Lesson7|Fish|[github](https://url.kr/5l2cjh)|[blog]|
 |Codility|Lesson7|Nesting|[github](https://url.kr/hlasf3)|[blog]|
 |Codility|Lesson7|StoneWall|[github](https://url.kr/tvufhp)|[blog]|
-|백준|10953 번|A+B-6|[github](https://url.kr/62gmlb)|[blog](https://davi06000.tistory.com/42)|
 |백준|7569 번|토마토|[github](https://url.kr/muhxak)|[blog](https://davi06000.tistory.com/75)|
-
+|백준|10953 번|A+B-6|[github](https://url.kr/62gmlb)|[blog](https://davi06000.tistory.com/42)|
+|백준|15649 번|N과 M (1)|[github](https://url.kr/dt87ur)|[blog]|
+|백준|15652 번|N과 M (4)|[github](https://url.kr/971m2b)|[blog]|
+|백준|1987 번|알파벳|[github](https://url.kr/hgami1)|[blog]|
+|백준|2156 번|포도주 시식|[github](https://url.kr/efl2q3)|[blog]|
+|백준|2447 번|별찍기 - 10|[github](https://url.kr/pbc8u5)|[blog]|
+|백준|2630 번|색종이 만들기|[github](https://url.kr/8v93np)|[blog]|
+|백준|5545 번|최고의 피자|[github](https://url.kr/z7wm15)|[blog]|
+|백준|7569 번|토마토|[github](https://url.kr/d76tb5)|[blog]|
+|백준|9184 번|신나는 함수실행|[github](https://url.kr/ek3iod)|[blog]|
 
 
 
