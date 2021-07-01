@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import sys
 
 N, C = map(int, input().split(' '))
