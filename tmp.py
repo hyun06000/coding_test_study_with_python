@@ -1,56 +1,78 @@
+# 화가 많이 난 사람의 코드
 import sys
+sys.setrecursionlimit(100000)
 
-<<<<<<< HEAD
-N, C = map(int, input().split(' '))
+class ICEBERG:
+    def __init__(self):
+        self.years = 0
+        self.N, self.M = map(int, sys.stdin.readline().split(" "))
+        self.iceberg = [ list(map(int, sys.stdin.readline().split(" "))) for _ in range(self.N) ]
+        self.didj = [(1, 0), (0, 1), (-1, 0), (0, -1)]
 
-houses = []
-for _ in range(N):
-    houses.append(int(sys.stdin.readline()))
-houses.sort()
+    def get_melt(self):
+        melt = [[0]*self.M for _ in range(self.N)]
+        for i in range(1, self.N - 1):
+            for j in range(1, self.M - 1):
+                if self.iceberg[i][j]:
+                    count = 0
+                    for di, dj in self.didj:
+                        count += (not self.iceberg[i + di][j + dj])
+                    melt[i][j] = count
+        self.melt = melt
 
-min_dist, max_dist = 1, houses[-1] - houses[0]
-while min_dist <= max_dist:
-    pivot = (max_dist + min_dist) // 2
+    def apply_melt(self):
+        self.global_is_iceberg = False
+        is_iceberg = [[False] * self.M for _ in range(self.N)]
+        for i in range(1, self.N - 1):
+            for j in range(1, self.M - 1):
+                self.iceberg[i][j] = max(0, self.iceberg[i][j] - self.melt[i][j])
+                if self.iceberg[i][j]:
+                    is_iceberg[i][j] = True
+                    self.global_is_iceberg = True
+        self.is_iceberg = is_iceberg
 
-    routers = 1
-    pre_house = houses[0]
-    for post_house in houses[1:]:
-        if pivot <= post_house - pre_house:
-            routers += 1
-            pre_house = post_house
+    def get_num_of_piece(self):
+        def dfs_stack(i, j): # 재귀 DFS 로 풀면 망한다.
+            queue = set([(i, j)])
+            self.is_iceberg[i][j] = False
 
-    if routers >= C:
-        answer = pivot
-        min_dist = pivot + 1
-    else:
-        max_dist = pivot - 1
-=======
-N, C = map(int, (input().split()))
-house = [int(sys.stdin.readline()) for _ in range(N)]
+            while queue:
+                i, j = queue.pop()
+                for di, dj in self.didj:
+                    _i, _j = i + di, j + dj
+                    if 0 < _i < self.N - 1 and 0 < _j < self.M - 1 and \
+                            self.is_iceberg[_i][_j]:
+                        queue.add((_i, _j))
+                        self.is_iceberg[_i][_j] = False
 
+        self.num_of_piece = 0
+        for i in range(1, self.N - 1):
+            for j in range(1, self.M - 1):
+                if self.is_iceberg[i][j]:
+                    dfs_stack(i, j)
+                    self.num_of_piece += 1
+                    if self.num_of_piece > 2:
+                        return
 
-# 해당 거리를 유지하며 공유기가 몇 개 설치될 수 있는가?
-def router_counter(distance):
-    count = 1
-    cur_house = house[0]  # 시작점
-    for i in range(1, N):  # 집모두를 돈다
-        if cur_house + distance <= house[i]:  # 이전 집에서 해당 거리보다 멀리 떨어진 집이라면
-            count += 1
-            cur_house = house[i]  # 공유기 설치된 집 갱신
-    return count
+    def single_year(self):
+        self.get_melt()
+        self.apply_melt()
+        if self.global_is_iceberg:
+            # 2조각 이상으로 안나뉘는 경우 고려 안하면 인생 조진다.
+            self.get_num_of_piece()
+            self.years += 1
 
+    def simulation(self):
+        while True:
+            self.single_year()
+            if not self.global_is_iceberg or self.num_of_piece > 1:
+                break
+        if not self.global_is_iceberg:
+            print(0)
+        else:
+            print(self.years)
 
-house = sorted(house)  # 이분탐색을 위한 정렬
-start, end = 1, house[-1] - house[0]  # 1, 첫집과 끝집
+if __name__ == "__main__":
+    _ICEBERG =ICEBERG()
 
-while start <= end:  # 이분탐색 알고리즘
-    mid = (start + end) // 2
-
-    if router_counter(mid) >= C:
-        answer = mid
-        start = mid + 1
-    else:
-        end = mid - 1
->>>>>>> 8caf0a00b7811729a0bb62fd33338f040a69a11e
-
-print(answer)
+    _ICEBERG.simulation()
