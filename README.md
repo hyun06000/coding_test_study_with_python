@@ -42,15 +42,17 @@
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|단어 변환|[github](https://bit.ly/3gapLuI)|[blog]|
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|여행경로|[github](https://bit.ly/3wU1PT0)|[blog]|
 |프로그래머스|깊이 너비 우선 탐색 (DFS, BFS)|타겟 넘버|[github](https://bit.ly/3g2FDzi)|[blog]|
-|프로그래머스|Level Check / LV.2|숫자의 표현|[github](https://url.kr/65b18l)|[blog]|
+|프로그래머스|Level Check / LV.2|가장 큰 정사각형 찾기|[github](https://url.kr/d612tl)|[blog]|
 |프로그래머스|Level Check / LV.2|문자열 압축|[github](https://url.kr/k7szv3)|[blog]|
+|프로그래머스|Level Check / LV.2|숫자의 표현|[github](https://url.kr/65b18l)|[blog]|
+|프로그래머스|Level Check / LV.2|짝지어 제거하기|[github](https://url.kr/oqxwtv)|[blog]|
+|프로그래머스|Level Check / LV.3|110 옮기기|[github](https://url.kr/jsqzuv)|[blog](https://davi06000.tistory.com/76)|
 |프로그래머스|Level Check / LV.3|2xN 타일|[github](https://bit.ly/2Rocl5W)|[blog](https://davi06000.tistory.com/70?category=862069)|
-|프로그래머스|Level Check / LV.3|야근|[github](https://bit.ly/2SQEPWh)|[blog](https://davi06000.tistory.com/66?category=862069)|
-|프로그래머스|Level Check / LV.3|자물쇠와 열쇠|[github](https://bit.ly/2S1NJQU)|[blog](https://davi06000.tistory.com/69?category=862069)|
+|프로그래머스|Level Check / LV.3|N-Queen|[github](https://url.kr/98amqr)|[blog](https://davi06000.tistory.com/73)|
 |프로그래머스|Level Check / LV.3|정수 삼각형|[github](https://url.kr/n1yhtf)|[blog](https://davi06000.tistory.com/71)|
 |프로그래머스|Level Check / LV.3|셔틀버스|[github](https://url.kr/jblkau)|[blog](https://davi06000.tistory.com/72)|
-|프로그래머스|Level Check / LV.3|N-Queen|[github](https://url.kr/98amqr)|[blog](https://davi06000.tistory.com/73)|
-|프로그래머스|Level Check / LV.3|110 옮기기|[github](https://url.kr/jsqzuv)|[blog](https://davi06000.tistory.com/76)|
+|프로그래머스|Level Check / LV.3|야근|[github](https://bit.ly/2SQEPWh)|[blog](https://davi06000.tistory.com/66?category=862069)|
+|프로그래머스|Level Check / LV.3|자물쇠와 열쇠|[github](https://bit.ly/2S1NJQU)|[blog](https://davi06000.tistory.com/69?category=862069)|
 |Codility|Lesson1|BinaryGap|[github]|[blog](https://davi06000.tistory.com/43)|
 |Codility|Lesson2|CyclicRotation|[github]|[blog](https://davi06000.tistory.com/44?category=858008)|
 |Codility|Lesson2|OddOccurrencesInArray|[github]|[blog](https://davi06000.tistory.com/45?category=858008)|
@@ -78,6 +80,7 @@
 |백준|1987 번|알파벳|[github](https://url.kr/hgami1)|[blog]|
 |백준|2156 번|포도주 시식|[github](https://url.kr/efl2q3)|[blog]|
 |백준|2447 번|별찍기 - 10|[github](https://url.kr/pbc8u5)|[blog]|
+|백준|2573 번|빙산|[github](https://github.com/hyun06000/coding_test_study_with_python/blob/main/Baekjoon/2573.py)|[blog]|
 |백준|2630 번|색종이 만들기|[github](https://url.kr/8v93np)|[blog]|
 |백준|5545 번|최고의 피자|[github](https://url.kr/z7wm15)|[blog]|
 |백준|7569 번|토마토|[github](https://url.kr/d76tb5)|[blog]|
@@ -86,10 +89,11 @@
 
 
 ### ToDoList
-commit date : 2021-06-07-21-09
+commit date : 2021-07-22-18-54
 
 - [X] 백준 표에 추가
 - [X] 코딜리티 표에 추가
 - [ ] 리트코드 표에 추가
 - [ ] 문제 누락 (Codility Lesson6 MaxProductOfThree)
 - [X] 1_2, 2_3, 2_5 통합 후 text book 디렉토리로 관리하기
+- [ ] 블로그 주소 업데이트
