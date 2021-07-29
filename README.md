@@ -74,6 +74,7 @@
 |Codility|Lesson7|Fish|[github](https://url.kr/5l2cjh)|[blog]|
 |Codility|Lesson7|Nesting|[github](https://url.kr/hlasf3)|[blog]|
 |Codility|Lesson7|StoneWall|[github](https://url.kr/tvufhp)|[blog]|
+|백준|10451 번|순열 사이클|[github](https://github.com/hyun06000/coding_test_study_with_python/blob/main/Baekjoon/10451.py)|[blog](https://davi06000.tistory.com/85)|
 |백준|10953 번|A+B-6|[github](https://url.kr/62gmlb)|[blog](https://davi06000.tistory.com/42)|
 |백준|15649 번|N과 M (1)|[github](https://url.kr/dt87ur)|[blog]|
 |백준|15652 번|N과 M (4)|[github](https://url.kr/971m2b)|[blog]|

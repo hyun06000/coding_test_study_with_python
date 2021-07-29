@@ -1,30 +1,35 @@
+# Beakjoon 9466
+
 import sys
 sys.setrecursionlimit(100000)
 
-T = int(input())
-for _ in range(T):
-    N = int(input())
-    permutation = list(map(int, input().split(" ")))
+def cyclic_graph():
+    N = int(sys.stdin.readline())
+    graph = list(map(int, sys.stdin.readline().split(" ")))
 
-    graph = {n + 1 : [permutation[n]] for n in range(N)}
-
+    answer = [[]]
     visited = set()
-    cicle_count = [0]
-    def dfs(v, trace = set()):
-        if v in trace:
-            cicle_count[0] += 1
+    def dfs(v, trace = []):
+        if trace and v in trace:
+            answer[0] += trace[trace.index(v):]
             return
 
         if v in visited:
             return
 
         visited.add(v)
-        trace.add(v)
-        for w in graph[v]:
-            dfs(w, trace)
-        trace.remove(v)
+        trace.append(v)
+        dfs(graph[v-1], trace)
+        trace.pop()
 
-    for v in list(graph):
-        dfs(v)
 
-    print(cicle_count[0])
+    for v in range(1, N + 1):
+        if v not in visited:
+            dfs(v)
+
+    print(N - len(answer[0]))
+
+
+T = int(sys.stdin.readline())
+for _ in range(T):
+    cyclic_graph()
