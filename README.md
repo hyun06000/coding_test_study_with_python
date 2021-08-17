@@ -80,6 +80,7 @@
 |백준|15652 번|N과 M (4)|[github](https://url.kr/971m2b)|[blog]|
 |백준|1987 번|알파벳|[github](https://url.kr/hgami1)|[blog]|
 |백준|2156 번|포도주 시식|[github](https://url.kr/efl2q3)|[blog]|
+|백준|21924 번|도시건설|[github](https://github.com/hyun06000/coding_test_study_with_python/blob/main/Baekjoon/21924.py)|[blog]|
 |백준|2447 번|별찍기 - 10|[github](https://url.kr/pbc8u5)|[blog]|
 |백준|2573 번|빙산|[github](https://github.com/hyun06000/coding_test_study_with_python/blob/main/Baekjoon/2573.py)|[blog]|
 |백준|2630 번|색종이 만들기|[github](https://url.kr/8v93np)|[blog]|
