@@ -87,6 +87,7 @@
 |백준|5545 번|최고의 피자|[github](https://url.kr/z7wm15)|[blog]|
 |백준|7569 번|토마토|[github](https://url.kr/d76tb5)|[blog]|
 |백준|9184 번|신나는 함수실행|[github](https://url.kr/ek3iod)|[blog]|
+|백준|2309 번|일곱 난쟁이|[github]|[blog]|
 
 
 
